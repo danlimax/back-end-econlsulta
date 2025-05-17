@@ -25,7 +25,7 @@
    ```
    **Para acessar o swagger**
    ```bash
-   Acesse a rota do localhost o endpoint /swagger
+   Acesse a rota do localhost sem o endpoint /swagger
    ```
 
 **Para acessar o banco de dados**  
