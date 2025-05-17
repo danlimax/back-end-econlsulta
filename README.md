@@ -36,3 +36,13 @@ use o comando docker compose up -d
 ```
 
 As credênciais estão no arquivo docker compose.
+
+**Comandos da migration**  
+ Instale a ferramenta ef core https://learn.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+ e rode os comandos abaixo.
+
+```bash
+dotnet ef migrations add NomeQuePreferir
+dotnet dataase update
+```
+Lembre-se de fazer o passo anterior do docker compose para atualizar o banco de dados.
